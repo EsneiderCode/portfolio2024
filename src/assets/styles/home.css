@@ -1,0 +1,120 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.photo__container {
+  position: relative;
+}
+
+.picture {
+  height: 500px;
+  z-index: 100;
+  position: relative;
+}
+
+.pupil__container {
+  position: absolute;
+  width: 42px;
+  height: 31px;
+  background: white;
+  overflow: hidden;
+  z-index: 90;
+  top: 212px;
+  right: 180px;
+}
+
+.pupil {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.typewriter {
+  width: max-content;
+}
+.typewriter .name {
+  display: inline-block;
+  text-align: left;
+}
+
+.typewriter .first-name,
+.typewriter .last-name {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 12s steps(30, end) infinite,
+    blink-caret 0.75s step-end infinite;
+  border-right: 0.04em solid;
+  margin: 0;
+}
+
+.typewriter .first-name {
+  color: var(--green_color);
+  border-color: var(--green_color);
+  font-size: 61px;
+}
+
+.typewriter .last-name {
+  color: var(--white_color);
+  border-color: var(--white_color);
+  font-size: 80px;
+}
+@keyframes typing {
+  0%,
+  40%,
+  100% {
+    width: 0;
+  }
+  20%,
+  60% {
+    width: 100%; /* Adjust based on the length of your text */
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: inherit;
+  }
+}
+
+.home__info p {
+  color: var(--white_color);
+}
+
+@media (max-width: 1260px) {
+  .home {
+    margin-top: 82px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .home__info {
+    width: 40%;
+  }
+
+  .typewriter .first-name {
+    font-size: 54px;
+  }
+
+  .typewriter .last-name {
+    font-size: 60px;
+  }
+}

@@ -1,0 +1,21 @@
+.about-me__description-text,
+.info-list__label {
+  color: var(--white_color);
+}
+
+.info-list__value {
+  color: var(--semiwhite_color);
+}
+
+.about-me__description {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.about-me__description-text,
+.about-me__info-list {
+  flex: 1;
+  /* padding-left: 100px; */
+}

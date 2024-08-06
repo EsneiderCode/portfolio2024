@@ -1,0 +1,58 @@
+.skill,
+.skills__content,
+.skill_name,
+.skill__description {
+  display: flex;
+}
+
+.skill,
+.skill_name {
+  align-items: center;
+}
+
+.skill {
+  align-items: end;
+}
+
+.skill__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.skills__content {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-image: url("../images/laptop.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  justify-content: start;
+}
+
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  gap: 69px;
+  background: rgb(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.skill_name {
+  gap: 10px;
+}
+
+.skill__description {
+  gap: 20px;
+}
+
+.skill__description span,
+.skill_name {
+  color: var(--white_color);
+}
+
+.skill__description span {
+  font-size: 13px;
+}

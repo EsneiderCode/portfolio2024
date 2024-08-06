@@ -1,0 +1,14 @@
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+.project {
+  position: relative;
+  color: var(--white_color);
+}
+
+.project-content {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}

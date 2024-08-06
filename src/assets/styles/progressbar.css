@@ -1,0 +1,11 @@
+.progress-bar__container {
+  width: 100%;
+  min-width: 250px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--green_color);
+  box-shadow: -4px -4px 10px rgba(61, 207, 182, 0.5),
+    4px 4px 10px rgba(0, 0, 0, 0.8);
+}

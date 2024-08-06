@@ -1,0 +1,7 @@
+.social-media img {
+  transition: transform 0.2s;
+}
+
+.social-media img:hover {
+  transform: scale(1.35);
+}
