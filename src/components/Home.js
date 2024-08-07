@@ -48,12 +48,11 @@ const Home = ({ position, containerRef }) => {
           </div>
         </div>
         <div className="social-media">
-          <SocialMedia link={"https://twitter.com/tu_usuario"} src={phone} />
-          <SocialMedia link={"https://twitter.com/tu_usuario"} src={gmail} />
-          <SocialMedia link={"https://twitter.com/tu_usuario"} src={wp} />
-          <SocialMedia link={"https://twitter.com/tu_usuario"} src={fb} />
-          <SocialMedia link={"https://twitter.com/tu_usuario"} src={twitter} />
-          <SocialMedia link={"https://twitter.com/tu_usuario"} src={linkedin} />
+          <SocialMedia link={"tel:+79054514616"} src={phone} />
+          <SocialMedia link={"mailto:hertecnology@gmail.com"} src={gmail} />
+          <SocialMedia link={"https://wa.me/79054514616"} src={wp} />
+          <SocialMedia link={"https://facebook.com/Herrrom/"} src={fb} />
+          <SocialMedia link={"https://www.linkedin.com/in/esneider-alejandro-herrera-romero-19a202309/"} src={linkedin} />
         </div>
       </div>
     </section>

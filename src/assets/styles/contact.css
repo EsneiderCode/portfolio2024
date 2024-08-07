@@ -91,8 +91,9 @@ form label,
 }
 
 .contact__social-media {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   grid-gap: 20px;
 }
 .contact__social-media a {
@@ -105,6 +106,7 @@ form label,
   padding: 5px 20px;
   border-radius: 20px;
   border: 1px solid var(--green_color);
+  width: fit-content;
 }
 
 .contact__social-media a img {
@@ -156,11 +158,5 @@ button {
   .contact__content {
     flex-direction: column-reverse;
     gap: 80px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .contact__social-media {
-    display: none;
   }
 }

@@ -49,29 +49,18 @@ const Contact = () => {
           </p>
 
           <div className="contact__social-media">
-            <a href="#">
+            <a  href="https://wa.me/79054514616">
               <img src={wp} alt="whatsapp" />
-              <p> +7 9054514616</p>
             </a>
-            <a href="#">
+            <a href="tel:+79054514616">
               <img src={call} alt="call" />
-              <p> +7 9054514616</p>
             </a>
             <a href="#">
-              <img src={xicon} alt="xicon" />
-              <p> +7 9054514616</p>
+              <img href="https://linkedin.com/in/yourprofile" target="_BLANK" src={linkedin} alt="linkedin" />
+              
             </a>
-            <a href="#">
-              <img src={call} alt="call" />
-              <p> +7 9054514616</p>
-            </a>
-            <a href="#">
-              <img src={linkedin} alt="linkedin" />
-              <p> +7 9054514616</p>
-            </a>
-            <a href="#">
+            <a href="https://facebook.com/yourprofile" target="_BLANK">
               <img src={fb} alt="fb" />
-              <p> +7 9054514616</p>
             </a>
           </div>
         </div>
