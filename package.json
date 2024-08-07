@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI= react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -25,7 +25,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "",
+  "homepage": "https://esneidercode.github.io/portfolio2024/",
   "browserslist": {
     "production": [
       ">0.2%",
