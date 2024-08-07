@@ -150,7 +150,7 @@ button {
 @media screen and (max-width: 1053px) {
   .contact__subtitles,
   .info__name {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
   .contact__content {
