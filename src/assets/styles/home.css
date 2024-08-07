@@ -126,3 +126,29 @@
     max-width: 100%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .photo__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .picture {
+    height: 250px;
+  }
+
+  .pupil__container {
+    width: 25px;
+    height: 14px;
+    z-index: 90;
+    top: 107px;
+    right: 168px;
+  }
+
+  .pupil {
+    width: 12px;
+    height: 12px;
+    left: 6px !important;
+    top: 1px !important;
+  }
+}
