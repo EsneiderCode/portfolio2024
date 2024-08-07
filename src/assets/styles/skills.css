@@ -30,12 +30,11 @@
 
 .skills__list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 84px;
   background: rgb(255, 255, 255, 0.1);
-  padding: 72px;
+  padding: 20px;
   border-radius: 20px;
-  width: 70%;
 }
 
 .skill_name {
@@ -56,12 +55,18 @@
 }
 
 @media screen and (max-width: 640px) {
-  .skill__description {
+  /* .skill__description {
     flex-direction: column;
   }
 
   .skills__list {
-    gap: 50px;
+    gap: 20px;
+  } */
+}
+
+@media screen and (max-width: 860px) {
+  .skills__list {
+    grid-template-columns: 1fr;
   }
 }
 
