@@ -146,3 +146,21 @@ button {
   flex-direction: column;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 1053px) {
+  .contact__subtitles,
+  .info__name {
+    margin-bottom: 0;
+  }
+
+  .contact__content {
+    flex-direction: column-reverse;
+    gap: 80px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .contact__social-media {
+    display: none;
+  }
+}

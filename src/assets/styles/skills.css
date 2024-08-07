@@ -21,23 +21,21 @@
 }
 
 .skills__content {
-  justify-content: space-evenly;
-  flex-wrap: wrap;
   background-image: url("../images/laptop.png");
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;
-  justify-content: start;
+  justify-content: center;
 }
 
 .skills__list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  flex-direction: column;
-  gap: 69px;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 84px;
   background: rgb(255, 255, 255, 0.1);
-  padding: 20px;
+  padding: 72px;
   border-radius: 20px;
+  width: 70%;
 }
 
 .skill_name {
@@ -55,4 +53,20 @@
 
 .skill__description span {
   font-size: 13px;
+}
+
+@media screen and (max-width: 640px) {
+  .skill__description {
+    flex-direction: column;
+  }
+
+  .skills__list {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 1148px) {
+  .skill {
+    justify-content: center;
+  }
 }

@@ -41,6 +41,7 @@
 .social-media {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .typewriter {
@@ -116,5 +117,12 @@
 
   .typewriter .last-name {
     font-size: 60px;
+  }
+}
+
+@media (max-width: 1016px) {
+  .home__info {
+    width: 100%;
+    max-width: 100%;
   }
 }
