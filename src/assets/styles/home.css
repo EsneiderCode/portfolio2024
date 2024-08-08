@@ -21,6 +21,13 @@
   position: relative;
 }
 
+.picturefull {
+  height: 500px;
+  z-index: 100;
+  position: relative;
+  display: none;
+}
+
 .pupil__container {
   position: absolute;
   width: 42px;
@@ -128,12 +135,21 @@
 }
 
 @media screen and (max-width: 600px) {
+  .picture,
+  .pupil__container {
+    display: none;
+  }
+
+  .picturefull {
+    display: flex;
+  }
   .photo__container {
     display: flex;
     justify-content: center;
   }
 
-  .picture {
+  .picture,
+  .picturefull {
     height: 250px;
   }
 

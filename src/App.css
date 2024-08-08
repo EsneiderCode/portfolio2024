@@ -19,7 +19,7 @@ body > *:not(.overlay) {
 .App {
   padding: 20px 100px;
   max-width: 2500px;
-  transform: translateZ(0);
+  /* transform: translateZ(0); */
 }
 
 .section-title {
@@ -30,5 +30,9 @@ body > *:not(.overlay) {
 @media screen and (max-width: 600px) {
   .App {
     padding: 20px 30px;
+  }
+
+  .section-title {
+    font-size: 22px;
   }
 }

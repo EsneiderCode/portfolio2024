@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/header.css";
 import Button from "./Button.js";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.svg";
 const Header = () => {
   return (
     <header>

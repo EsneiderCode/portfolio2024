@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../assets/styles/menuhamburger.css";
-import logo from "../assets/images/logo.png";
-import close from "../assets/images/close.png";
-import hamburgerLogo from "../assets/images/hamburger.png";
+import logo from "../assets/images/logo.svg";
+import close from "../assets/images/close.svg";
+import hamburgerLogo from "../assets/images/hamburger.svg";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);

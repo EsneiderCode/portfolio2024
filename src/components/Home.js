@@ -2,12 +2,12 @@ import React from "react";
 import "../assets/styles/home.css";
 import photo from "../assets/images/herrera.png";
 import SocialMedia from "./SocialMedia";
-import fb from "../assets/images/fb.png";
-import gmail from "../assets/images/gmail.png";
-import linkedin from "../assets/images/linkedin.png";
-import phone from "../assets/images/phone.png";
-import twitter from "../assets/images/twitter.png";
-import wp from "../assets/images/wp.png";
+import fb from "../assets/images/fb.svg";
+import gmail from "../assets/images/gmail.svg";
+import linkedin from "../assets/images/linkedin.svg";
+import phone from "../assets/images/phone.svg";
+import fullphoto from "../assets/images/fullface.png";
+import wp from "../assets/images/wp.svg";
 import eye from "../assets/images/eye.png";
 
 const Home = ({ position, containerRef }) => {
@@ -25,13 +25,13 @@ const Home = ({ position, containerRef }) => {
           </div>
         </div>
         <p>
-          Uncover the transformative power of software for digital innovation
-          and enhanced user experiences..
+          Beyond code: I craft transformative technological experiences that drive progress, spark innovation, and elevate the digital landscape to new heights...
         </p>
       </div>
       <div className="home__photo">
         <div className="photo__container">
           <img className="picture" alt="Esneider Herrera" src={photo} />
+          <img className="picturefull" alt="Esneider Herrera" src={fullphoto} />
           <div
             className="pupil__container"
             ref={containerRef} 

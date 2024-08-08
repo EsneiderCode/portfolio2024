@@ -5,6 +5,9 @@ form {
   display: flex;
 }
 
+form label {
+  cursor: pointer;
+}
 .contact__content {
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -94,19 +97,12 @@ form label,
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  grid-gap: 20px;
+  grid-gap: 8px;
 }
 .contact__social-media a {
   text-decoration: none;
   color: inherit;
   display: flex;
-  gap: 15px;
-  box-shadow: -4px -4px 10px rgba(61, 207, 182, 0.5),
-    4px 4px 10px rgba(0, 0, 0, 0.8);
-  padding: 5px 20px;
-  border-radius: 20px;
-  border: 1px solid var(--green_color);
-  width: fit-content;
 }
 
 .contact__social-media a img {

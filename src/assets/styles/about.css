@@ -3,6 +3,10 @@
   color: var(--white_color);
 }
 
+.info-list__label {
+  color: var(--gray-color);
+}
+
 .info-list__value {
   color: var(--semiwhite_color);
 }

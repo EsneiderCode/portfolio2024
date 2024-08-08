@@ -1,13 +1,11 @@
 import React from "react";
 import "../assets/styles/contact.css";
 import { useState } from "react";
-import logo from "../assets/images/logo.png";
-import email from "../assets/images/contact_email.png";
-import xicon from "../assets/images/contact_x.png";
-import linkedin from "../assets/images/contact_linkedin.png";
-import fb from "../assets/images/contact_fb.png";
-import call from "../assets/images/contact_call.png";
-import wp from "../assets/images/contact_wp.png";
+import logo from "../assets/images/logo.svg";
+import linkedin from "../assets/images/linkedin.svg";
+import gmail from "../assets/images/gmail.svg";
+import call from "../assets/images/phone.svg";
+import wp from "../assets/images/wp.svg";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -42,10 +40,7 @@ const Contact = () => {
           </div>
           <h5 className="contact__subtitle">Software Engineer</h5>
           <p className="info-description">
-            My Name is Alehito. I’m a seasoned software engineer with a passion
-            for crafting innovative and user-centric solutions. Skilled in
-            multiple programming languages, specializing in the development of
-            full-stack web applications and mobile applications.
+          Thank you for reviewing my portfolio. I hope you found it enjoyable. If you are interested in exploring collaboration opportunities or discussing potential contributions to your company, please feel free to contact me. I am excited about the possibility of bringing my skills to your team and working together to develop innovative ideas.
           </p>
 
           <div className="contact__social-media">
@@ -55,12 +50,12 @@ const Contact = () => {
             <a href="tel:+79054514616">
               <img src={call} alt="call" />
             </a>
-            <a href="#">
-              <img href="https://linkedin.com/in/yourprofile" target="_BLANK" src={linkedin} alt="linkedin" />
+            <a href="https://www.linkedin.com/in/esneider-alejandro-herrera-romero-19a202309/" target="_BLANK" >
+              <img src={linkedin} alt="linkedin" />
               
             </a>
-            <a href="https://facebook.com/yourprofile" target="_BLANK">
-              <img src={fb} alt="fb" />
+            <a href="mailto:hertecnology@gmail.com" target="_BLANK">
+              <img src={gmail} alt="gmail" />
             </a>
           </div>
         </div>

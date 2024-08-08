@@ -2,9 +2,13 @@
   --green_color: #3dcfb6;
   --black_color: #1a1a1a;
   --white_color: #ededed;
-  --semiwhite_color: rgba(237, 237, 237, 0.5);
+  --brand-color: hsl(46, 100%, 50%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --semiwhite_color: rgba(255, 252, 252, 0.893);
   --primary-font: red;
   --secundary_font: red;
+  --gray-color: #8d8d8d;
 }
 
 .button--primary {

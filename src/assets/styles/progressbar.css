@@ -28,10 +28,3 @@
   transition: width 0.3s ease-in-out;
   border-radius: 4px;
 }
-
-/* @media screen and (max-width: 600px) {
-  .percentage__container,
-  .progress-bar__container {
-    min-width: 0;
-  }
-} */

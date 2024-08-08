@@ -2,17 +2,24 @@ import React from "react";
 import "../assets/styles/project.css";
 
 const Project = ({ title, description, imageUrl, link }) => {
-    return (
-      <a href={link} className="project-link">
-        <div className="project">
-          <img src={imageUrl} alt={title} className="project-image" />
-          <div className="project-content">
-            <h3 className="project-title">{title}</h3>
-            <p className="project-description">{description}</p>
-          </div>
+  const handleClick = () => {
+    window.open(link, "_blank");
+  };
+
+  return (
+    <article className="card">
+      <img className="card__background" src={imageUrl} alt={title} />
+      <div className="card__content | flow">
+        <div className="card__content--container | flow">
+          <h2 className="card__title">{title}</h2>
+          <p className="card__description">{description}</p>
         </div>
-      </a>
-    );
-}
+        <button onClick={handleClick} className="card__button">
+          I want to see it!
+        </button>
+      </div>
+    </article>
+  );
+};
 
 export default Project;
