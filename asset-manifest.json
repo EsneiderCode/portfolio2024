@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2024/static/css/main.4de414a6.css",
-    "main.js": "/portfolio2024/static/js/main.ff2debb1.js",
+    "main.css": "/portfolio2024/static/css/main.2f092727.css",
+    "main.js": "/portfolio2024/static/js/main.050268a9.js",
     "static/media/eye.png": "/portfolio2024/static/media/eye.c5c46283afae5c67ed51.png",
     "static/media/artistgarden.png": "/portfolio2024/static/media/artistgarden.75ef3dbc872730c3a3f7.png",
     "static/media/stepi.png": "/portfolio2024/static/media/stepi.2894cbfeedaf6a9a6df2.png",
@@ -49,11 +49,11 @@
     "static/media/github.svg": "/portfolio2024/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/portfolio2024/index.html",
     "static/media/fastapi.svg": "/portfolio2024/static/media/fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
-    "main.4de414a6.css.map": "/portfolio2024/static/css/main.4de414a6.css.map",
-    "main.ff2debb1.js.map": "/portfolio2024/static/js/main.ff2debb1.js.map"
+    "main.2f092727.css.map": "/portfolio2024/static/css/main.2f092727.css.map",
+    "main.050268a9.js.map": "/portfolio2024/static/js/main.050268a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4de414a6.css",
-    "static/js/main.ff2debb1.js"
+    "static/css/main.2f092727.css",
+    "static/js/main.050268a9.js"
   ]
 }
