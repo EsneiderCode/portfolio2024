@@ -27,18 +27,18 @@ function App() {
       setPosition({ x, y });
     } 
   }, []);
-
+  
   return (
     <div className="App" onMouseMove={handleMouseMove} >
       <div class="overlay"></div>
       <Header />
       <HamburgerMenu/>
-      <Home  position={position} containerRef={containerRef}/>
-      <About />
-      <Expertise />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div id="home"><Home position={position} containerRef={containerRef}/></div>
+      <div id="about"><About /></div>
+      <div id="expertises"><Expertise /></div>
+      <div id="skills"><Skills /></div>
+      <div id="projects"><Projects /></div>
+      <div id="contact"><Contact /></div>
     </div>
   );
 }

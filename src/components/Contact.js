@@ -60,7 +60,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form onSubmit={handleSubmit}>
+        {/* <form onSubmit={handleSubmit}>
           <div className="contact__subtitles">
             <span className="span__questions">Any questions?</span>
             <span className="span__drop-line">Drop me a line</span>
@@ -117,7 +117,7 @@ const Contact = () => {
           <button className="button--secundary" type="submit">
             Send message
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );

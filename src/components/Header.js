@@ -10,13 +10,18 @@ const Header = () => {
           <img alt="hertec" src={logo} />
         </a>
         <div className="navbar__buttons">
-          <Button text="HOME" />
-          <Button text="ABOUT ME" />
-          <Button text="SERVICES" />
-          <Button text="SKILLS" />
-          <Button text="PROJECTS" />
-          <Button text="BLOG" />
-          <Button text="LET'S CHAT" />
+          <a href="#home">
+          <Button  text="HOME" /></a>
+          <a href="#about">
+          <Button text="ABOUT ME" /></a>
+          <a href="#expertises">
+          <Button text="SERVICES" /></a>
+          <a href="#skills">
+          <Button text="SKILLS" /></a>
+          <a href="#projects">
+          <Button text="PROJECTS" /></a>
+          <a href="#contact">
+          <Button text="LET'S CHAT" /></a>
         </div>
       </nav>
     </header>
