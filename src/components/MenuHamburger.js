@@ -24,22 +24,22 @@ const HamburgerMenu = () => {
 
       <nav className={`nav-links ${isOpen ? "visible" : ""}`}>
         <ul>
-          <li>
+          <li onClick={() => setIsOpen(!isOpen)}>
             <a href="#home">Home</a>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(!isOpen)}>
             <a href="#about">About</a>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(!isOpen)}>
             <a href="#expertises">Services</a>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(!isOpen)}>
             <a href="#skills">Skills</a>
           </li>
-          <li>
-            <a href="#projects">Contact</a>
+          <li onClick={() => setIsOpen(!isOpen)}>
+            <a href="#projects">Projects</a>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(!isOpen)}>
             <a href="#contact">Contact</a>
           </li>
         </ul>
