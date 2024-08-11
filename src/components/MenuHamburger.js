@@ -31,7 +31,13 @@ const HamburgerMenu = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#expertises">Services</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Contact</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

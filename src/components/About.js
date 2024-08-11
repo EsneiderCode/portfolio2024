@@ -37,7 +37,7 @@ const About = () => {
             <h4 className="info-list__label">Degree</h4>
             <p className="info-list__value">Software Engineer</p>
           </div>
-          <a className="button--primary" href="https://drive.google.com/file/d/1wzQiXfpRpZif36X9KPV8UTEU7Jntqcjm/view?usp=drive_link" target="_BLANK" download="CV.pdf">DOWNLOAD CV</a>
+          <a className="button--primary" href="https://drive.google.com/file/d/1UX3vtO21igls2FtKVnyIw6qElscdp1Gw/view?usp=sharing" target="_BLANK" download="CV_2024.pdf">DOWNLOAD CV</a>
         </div>
       </div>
     </section>
