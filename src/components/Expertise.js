@@ -18,9 +18,7 @@ const Expertise = () => {
           </div>
           <div className="expertise">
             <p className="expertise__label">Machine Learning</p>
-            <p className="expertise__value">
-            Expert in applying machine learning techniques to analyze data and uncover insights. I work with advanced algorithms to develop solutions that improve decision-making, optimize processes, and personalize user experiences. My goal is to harness the power of data to drive efficiency and innovation in your projects.            </p>
-          </div>
+            <p className="expertise__value">Beginner in applying machine learning techniques to analyze data and uncover insights. I am learning to work with advanced algorithms to develop solutions that enhance decision-making, optimize processes, and personalize user experiences. My goal is to leverage data to drive efficiency and innovation in your projects.</p>        </div>
         </div>
       </div>
     </section>
