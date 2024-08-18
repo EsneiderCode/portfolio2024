@@ -35,6 +35,10 @@ import api from "../assets/images/skills/api.png";
 import agile from "../assets/images/skills/agile.png";
 import python from "../assets/images/skills/python.png";
 import nodejs from "../assets/images/skills/nodejs.png";
+import csharp from "../assets/images/skills/csharp.webp";
+import entityframework from "../assets/images/skills/entityframeworkcore.png";
+import graphql from "../assets/images/skills/graphql.png";
+import net from "../assets/images/skills/net.png";
 
 const Skills = () => {
   return (
@@ -42,6 +46,59 @@ const Skills = () => {
       <h2 className="section-title line-text">MY SKILLS & TOOLS</h2>
       <div className="skills__content">
         <div className="skills__list">
+          {/* {Net} */}
+          <div className="skill">
+            <div className="skill__info">
+              <div className="skill_name">
+                <img src={csharp} alt="csharp" />
+                <span>C#</span>
+              </div>
+              <div className="skill__description">
+                <ProgressBar value={85} max={100} />
+                <span>Expert</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="skill">
+            <div className="skill__info">
+              <div className="skill_name">
+                <img src={net} alt="net" />
+                <span>.NET</span>
+              </div>
+              <div className="skill__description">
+                <ProgressBar value={75} max={100} />
+                <span>Advanced</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="skill">
+            <div className="skill__info">
+              <div className="skill_name">
+                <img src={entityframework} alt="adonet" />
+                <span>ADO.Net</span>
+              </div>
+              <div className="skill__description">
+                <ProgressBar value={65} max={100} />
+                <span>Proficient</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="skill">
+            <div className="skill__info">
+              <div className="skill_name">
+                <img src={graphql} alt="graphql" />
+                <span>Graphql</span>
+              </div>
+              <div className="skill__description">
+                <ProgressBar value={30} max={100} />
+                <span>Beginner</span>
+              </div>
+            </div>
+          </div>
+
           {/* Frontend */}
           <div className="skill">
             <div className="skill__info">

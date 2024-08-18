@@ -17,8 +17,8 @@ const Expertise = () => {
             Specializing in creating tailored web solutions that enhance digital experiences. My expertise covers everything from responsive design to complex functionality, ensuring your website is both user-friendly and visually appealing. I focus on building websites that effectively represent your brand and meet your business needs.            </p>
           </div>
           <div className="expertise">
-            <p className="expertise__label">Machine Learning</p>
-            <p className="expertise__value">Beginner in applying machine learning techniques to analyze data and uncover insights. I am learning to work with advanced algorithms to develop solutions that enhance decision-making, optimize processes, and personalize user experiences. My goal is to leverage data to drive efficiency and innovation in your projects.</p>        </div>
+            <p className="expertise__label">.NET & C# Development</p>
+            <p className="expertise__value">.NET and C# developer with a growing expertise in building robust and scalable applications. I am dedicated to mastering the full stack of .NET technologies, from back-end development with ASP.NET Core to front-end design using ReactJs. My focus is on creating high-performance, maintainable solutions that enhance user experiences, streamline operations, and drive strategic decision-making. I am eager to apply my knowledge to develop innovative software solutions that align with your business objectives and contribute to the success of your projects.</p>        </div>
         </div>
       </div>
     </section>

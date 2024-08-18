@@ -31,13 +31,13 @@ const About = () => {
           </div>
           <div className="info-list">
             <h4 className="info-list__label">Languages</h4>
-            <p className="info-list__value">ESP | ENG | RUS</p>
+            <p className="info-list__value">ESP | ENG | RUS | GER</p>
           </div>
           <div className="info-list">
             <h4 className="info-list__label">Degree</h4>
             <p className="info-list__value">Software Engineer</p>
           </div>
-          <a className="button--primary" href="https://drive.google.com/file/d/1qhPuJ5f5x_RScIyi3r5fSsH9ZgC5nqqe/view?usp=sharing" target="_BLANK" download="CV_2024.pdf">DOWNLOAD CV</a>
+          <a className="button--primary" href="https://drive.google.com/file/d/1XCrc4vMDLxsz0NnXNarqOPm25JcqrMHj/view?usp=sharing" target="_BLANK" download="CV_2024.pdf">DOWNLOAD CV</a>
         </div>
       </div>
     </section>
