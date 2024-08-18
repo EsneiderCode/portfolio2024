@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2024/static/css/main.c6682457.css",
-    "main.js": "/portfolio2024/static/js/main.d4bf2640.js",
+    "main.js": "/portfolio2024/static/js/main.7e6acaf9.js",
     "static/media/eye.png": "/portfolio2024/static/media/eye.c5c46283afae5c67ed51.png",
     "static/media/artistgarden.png": "/portfolio2024/static/media/artistgarden.75ef3dbc872730c3a3f7.png",
     "static/media/stepi.png": "/portfolio2024/static/media/stepi.2894cbfeedaf6a9a6df2.png",
@@ -26,6 +26,7 @@
     "static/media/postgresql.png": "/portfolio2024/static/media/postgresql.0c694ee8e04701309892.png",
     "static/media/machinelearning.png": "/portfolio2024/static/media/machinelearning.71cf5caaa614ef0f3d76.png",
     "static/media/cicd.png": "/portfolio2024/static/media/cicd.3c5089b3059795f274ea.png",
+    "static/media/graphql.png": "/portfolio2024/static/media/graphql.5d67aeae20dee5ecabca.png",
     "static/media/react.png": "/portfolio2024/static/media/react.ab33eba3ff0be623e04b.png",
     "static/media/basketfeature.png": "/portfolio2024/static/media/basketfeature.80fac031a079c45da525.png",
     "static/media/mongodb.png": "/portfolio2024/static/media/mongodb.275d22c893379ce9627a.png",
@@ -38,10 +39,12 @@
     "static/media/agile.png": "/portfolio2024/static/media/agile.71c4e1dda0d44bdff20d.png",
     "static/media/restapi.png": "/portfolio2024/static/media/restapi.1e2033e28511359706b6.png",
     "static/media/sql.png": "/portfolio2024/static/media/sql.abaab792911955c82da0.png",
+    "static/media/entityframeworkcore.png": "/portfolio2024/static/media/entityframeworkcore.9601fa8ce87ea1be72a3.png",
     "static/media/german.png": "/portfolio2024/static/media/german.595e0c27997ea1710e4b.png",
     "static/media/postman.svg": "/portfolio2024/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
     "static/media/wordpress.webp": "/portfolio2024/static/media/wordpress.910da9081ae5acdd37e0.webp",
     "static/media/nginx.png": "/portfolio2024/static/media/nginx.2643e6f604e62d0b2863.png",
+    "static/media/csharp.webp": "/portfolio2024/static/media/csharp.9cc375d191337067a65a.webp",
     "static/media/wp.svg": "/portfolio2024/static/media/wp.b40babc2aa5dc084994de6f0d58f2387.svg",
     "static/media/linkedin.svg": "/portfolio2024/static/media/linkedin.32c406bdab4270eb7f566dac9dbdd092.svg",
     "static/media/phone.svg": "/portfolio2024/static/media/phone.29bf334042991f17600b790e26077cc3.svg",
@@ -59,10 +62,10 @@
     "static/media/logo.svg": "/portfolio2024/static/media/logo.b438b33691a797ff4a704bcf1f6dfcd3.svg",
     "static/media/fastapi.svg": "/portfolio2024/static/media/fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "main.c6682457.css.map": "/portfolio2024/static/css/main.c6682457.css.map",
-    "main.d4bf2640.js.map": "/portfolio2024/static/js/main.d4bf2640.js.map"
+    "main.7e6acaf9.js.map": "/portfolio2024/static/js/main.7e6acaf9.js.map"
   },
   "entrypoints": [
     "static/css/main.c6682457.css",
-    "static/js/main.d4bf2640.js"
+    "static/js/main.7e6acaf9.js"
   ]
 }
