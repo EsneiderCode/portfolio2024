@@ -30,7 +30,7 @@ function App() {
   
   return (
     <div className="App" onMouseMove={handleMouseMove} >
-      <div class="overlay"></div>
+      <div className="overlay"></div>
       <Header />
       <HamburgerMenu/>
       <div id="home"><Home position={position} containerRef={containerRef}/></div>
